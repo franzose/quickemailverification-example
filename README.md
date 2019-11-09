@@ -8,6 +8,12 @@ $ git clone https://github.com/franzose/quickemailverification-example.git
 $ composer install
 ```
 
+Then create the `.env.local` file and put there the API key you previously obtained from the QuickEmailVerification service:
+
+```txt
+QEV_API_KEY=your_api_key_here
+```
+
 ## Testing from CLI
 
 Run this command and watch the output:
