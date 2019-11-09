@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+verify:
+    path: /verify
+    controller: App\HardBounce\VerifyEmailAction

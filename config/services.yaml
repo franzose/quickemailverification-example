@@ -1,0 +1,15 @@
+parameters:
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\HardBounce\EmailVerifier:
+        arguments:
+            - '%env(QEV_API_KEY)%'
+
+    App\HardBounce\VerifyEmailAction:
+        tags: [controller.service_arguments]
+
+    App\HardBounce\VerifyEmailCommand:
+        tags: [console.command]
