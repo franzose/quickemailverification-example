@@ -4,6 +4,7 @@ This repository is just an example of the [QuickEmailVerification](https://quick
 Setup is as easy as:
 
 ```bash
+$ git clone https://github.com/franzose/quickemailverification-example.git
 $ composer install
 ```
 
